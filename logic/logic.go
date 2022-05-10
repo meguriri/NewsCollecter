@@ -3,8 +3,9 @@ package logic
 import (
 	"fmt"
 	"log"
-	"news/dao"
 	"time"
+
+	"github.com/meguriri/NewsCollecter/dao"
 )
 
 func InitCategory() {

@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"news/dao"
-	"news/log"
-	"news/logic"
 
 	"github.com/gin-gonic/gin"
+	"github.com/meguriri/NewsCollecter/dao"
+	"github.com/meguriri/NewsCollecter/log"
+	"github.com/meguriri/NewsCollecter/logic"
 )
 
 func GetIndex() gin.HandlerFunc {

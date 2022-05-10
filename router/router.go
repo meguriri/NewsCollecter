@@ -1,7 +1,7 @@
 package router
 
 import (
-	h "news/handler"
+	h "github.com/meguriri/NewsCollecter/handler"
 
 	"github.com/gin-gonic/gin"
 )

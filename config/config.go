@@ -2,9 +2,9 @@ package config
 
 import (
 	"fmt"
-	"news/dao"
-	l "news/log"
 
+	"github.com/meguriri/NewsCollecter/dao"
+	l "github.com/meguriri/NewsCollecter/log"
 	"github.com/spf13/viper"
 )
 

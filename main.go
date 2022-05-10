@@ -1,11 +1,11 @@
 package main
 
 import (
-	"news/config"
-	"news/dao"
-	"news/log"
-	"news/logic"
-	"news/router"
+	"github.com/meguriri/NewsCollecter/config"
+	"github.com/meguriri/NewsCollecter/dao"
+	"github.com/meguriri/NewsCollecter/log"
+	"github.com/meguriri/NewsCollecter/logic"
+	"github.com/meguriri/NewsCollecter/router"
 )
 
 func main() {

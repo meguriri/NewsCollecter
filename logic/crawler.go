@@ -5,10 +5,11 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
-	"news/dao"
 	"regexp"
 	"strings"
 	"time"
+
+	"github.com/meguriri/NewsCollecter/dao"
 )
 
 func GetHTML(url string) string {
