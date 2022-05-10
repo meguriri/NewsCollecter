@@ -1,0 +1,12 @@
+mysql:
+  username: 
+  password: 
+  host: 
+  port: 
+  database: 
+
+router:
+  port: 
+
+log:
+  file: ./log.log
